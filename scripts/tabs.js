@@ -11,7 +11,7 @@ const tabsFoo = () => {
         {
             name: "Graphite",
             memory: 128,
-            price: 99990,
+            price: 97990,
             imageUrl: "img/iPhone-graphite.webp"
         }, {
             name: "Silver",
