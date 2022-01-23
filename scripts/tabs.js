@@ -3,6 +3,7 @@ const tabsFoo = () => {
     const tabTitle = document.querySelector(".card-details__title");
     const tabPrice = document.querySelector(".card-details__price");
     const tabMemory = document.querySelector(".description__memory");
+    const tabMemoryCh = document.querySelector(".description__memory_ch");
     const tabImage = document.querySelector(".card__image_item");
     const pageTitle = document.querySelector("title");
 
@@ -29,6 +30,7 @@ const tabsFoo = () => {
         tabTitle.textContent = `Смартфон Apple iPhone 13 Pro ${tabsOptions[index].memory} GB ${tabsOptions[index].name}`;
         tabPrice.textContent = `${tabsOptions[index].price} ₽`;
         tabMemory.textContent = `Встроенная память (ROM) ${tabsOptions[index].memory} ГБ`;
+        tabMemoryCh.innerHTML = `<p>Встроенная память (Гб)</p><p>${tabsOptions[index].memory}</p>`;
 
         tabImage.setAttribute("src", tabsOptions[index].imageUrl);
 

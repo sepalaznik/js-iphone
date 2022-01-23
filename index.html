@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="libs/amenu/amenu.css">
 	<script defer src="scripts/scroll.js"></script>
 	<script defer src="scripts/tabs.js"></script>
+	<script defer src="scripts/accordion.js"></script>
+	<script defer src="scripts/getData.js"></script>
 	<title>iPhone</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -35,10 +37,9 @@
 		<section class="present" id="present">
 			<div class="container">
 				<h1 class="present__title">iPhone13 Pro</h1>
-				<p class="present__description">Грандиозный апгрейд камер Pro. Режим «Киноэффект» делает из видео
-					настоящее кино. Дисплей Super Retina XDR с технологией ProMotion для более быстрого и плавного
-					взаимодействия. А15 Bionic — самый быстрый чип для iPhone. Прочный корпус и огромный прирост ресурса
-					аккумулятора.</p>
+				<p class="present__description">Грандиозный апгрейд камер Pro. Режим «Киноэффект» делает из видео настоящее кино. 
+					Дисплей Super Retina XDR с технологией ProMotion для более быстрого и плавного взаимодействия. А15 Bionic — 
+					самый быстрый чип для iPhone. Прочный корпус и огромный прирост ресурса аккумулятора.</p>
 				<figure class="present__img">
 					<img src="img/iPhone-main.png" alt="iPhone12">
 				</figure>
@@ -64,22 +65,15 @@
 					</ul>
 					<div class="card-details__description">
 						<ul class="card-details__description-list description">
-							<li class="card-details__description-item description__screen">Экран 6.1"/2532x1170 Пикс
-							</li>
-							<li class="card-details__description-item description__tech-screen">Технология экрана OLED
-							</li>
-							<li class="card-details__description-item description__processor">Тип процессора A15 Bionic
-							</li>
-							<li class="card-details__description-item description__memory">Встроенная память (ROM) 128
-								ГБ</li>
-							<li class="card-details__description-item description__camera">Основная камера МПикс
-								12/12/12/LiDAR</li>
+							<li class="card-details__description-item description__screen">Экран 6.1"/2532x1170 Пикс</li>
+							<li class="card-details__description-item description__tech-screen">Технология экрана OLED</li>
+							<li class="card-details__description-item description__processor">Тип процессора A15 Bionic</li>
+							<li class="card-details__description-item description__memory">Встроенная память (ROM) 128 ГБ</li>
+							<li class="card-details__description-item description__camera">Основная камера МПикс 12/12/12/LiDAR</li>
 						</ul>
 						<a class="card-details__link-characteristics" href="#characteristics">Полные харакстеристики</a>
 						<div class="card-details__footer">
-							<p class="card-details__price">
-								99990₽
-							</p>
+							<p class="card-details__price">99990 ₽</p>
 							<button class="button button_buy card-details__button_buy"
 								data-button-buy="Оплата">Купить</button>
 							<button class="button card-details__button_delivery"
@@ -249,7 +243,7 @@
 						<button class="characteristics__title" type="button">Память</button>
 						<div class="characteristics__description">
 							<ul class="characteristics__list-description">
-								<li class="characteristics__item-description">
+								<li class="characteristics__item-description description__memory_ch">
 									<p>Встроенная память (Гб)</p>
 									<p>128</p>
 								</li>
