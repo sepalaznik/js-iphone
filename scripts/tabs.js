@@ -27,7 +27,7 @@ const tabsFoo = () => {
     ];
 
     const changeTabsContent = (index) => {
-        tabTitle.textContent = `Смартфон Apple iPhone 13 Pro ${tabsOptions[index].memory} GB ${tabsOptions[index].name}`;
+        tabTitle.textContent = `Смартфон Apple iPhone 13 Pro ${tabsOptions[index].memory}GB ${tabsOptions[index].name}`;
         tabPrice.textContent = `${tabsOptions[index].price} ₽`;
         tabMemory.textContent = `Встроенная память (ROM) ${tabsOptions[index].memory} ГБ`;
         tabMemoryCh.innerHTML = `<p>Встроенная память (Гб)</p><p>${tabsOptions[index].memory}</p>`;
