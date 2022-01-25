@@ -1,7 +1,7 @@
 const accordion = () => {
     const chItems = document.querySelectorAll(".characteristics__item");
 
-    const closeContent = () => {
+    const closeActiveContent = () => {
         const activeButton = document.querySelector(".characteristics__title.active");
         const openContent = document.querySelector(".characteristics__description.open");
 
@@ -22,7 +22,7 @@ const accordion = () => {
             if (chContent.classList.contains("open")) {
                 chContent.style.height = "";
             } else {
-                closeContent();
+                closeActiveContent();
                 chContent.style.height = chContent.scrollHeight + "px";
             }
             chButton.classList.toggle("active");

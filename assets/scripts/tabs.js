@@ -12,17 +12,17 @@ const tabsFoo = () => {
             name: "Graphite",
             memory: 128,
             price: 97990,
-            imageUrl: "img/iPhone-graphite.webp"
+            imageUrl: "./assets/img/iPhone-graphite.webp"
         }, {
             name: "Silver",
             memory: 256,
             price: 89990,
-            imageUrl: "img/iPhone-silver.webp"
+            imageUrl: "./assets/img/iPhone-silver.webp"
         }, {
             name: "Sierra Blue",
             memory: 512,
             price: 105990,
-            imageUrl: "img/iPhone-sierra_blue.webp"
+            imageUrl: "./assets/img/iPhone-sierra_blue.webp"
         }
     ];
 
